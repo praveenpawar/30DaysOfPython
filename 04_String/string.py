@@ -23,3 +23,26 @@ print(company.swapcase())
 print(company.capitalize())
 print(company.title())
 
+#Exercise 4.9
+cut_first=company[:6]
+print(cut_first)
+#Exercise 4.10
+print(company.find('Coding'))
+sub_string='Coding'
+print(company.index(sub_string))
+#Exercise 4.11, 4.12
+print(company.replace('Coding', 'Python'))
+#Exercise 4.13
+print(company.split())
+#Exercise 4.14
+challenge="Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(challenge.split(', '))
+#Exercise 4.15
+print(company[0])
+#Exercise 4.16
+print(company[len(company)-1])
+#Exercise 4.17
+print(company[11])
+#Exercise 4.18, 4.19
+print(company[0] + company[7] + company[11])
+#Exercise 4.20
