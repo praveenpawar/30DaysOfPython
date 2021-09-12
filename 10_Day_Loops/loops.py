@@ -13,13 +13,16 @@ while count >= 0:
     count = count - 1
 
 #Exercise10.3
-count=0
-while count < 8:
-    print('#')
-    count = count + 1
+for row in range(1, 8):     # Here outer loop is for rows
+    for col in range(1, row+1):     # Here inner loop for columns
+        print('* ', end='') 
+    print()
 
 #Exercise10.4
-
+for row in range(1, 9):     # Here outer loop is for rows
+    for col in range(1, 9):     # Here inner loop for columns
+        print('* ', end='') 
+    print()
 
 #Exercise10.5
 count=0
