@@ -1,6 +1,6 @@
 #Day14 HOF - 30 days of python learning
 
-#Exercise14.1
+# #Exercise14.1
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
 names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -54,3 +54,13 @@ def add_two_num(x, y):
 
 total = ft.reduce(add_two_num, numbers)
 print(total)
+
+#Exercise14.4, 14.5, 14.6
+for i in countries:
+    print(i, end=' ')
+
+for i in names:
+    print(i, end=' ')
+
+for i in numbers:
+    print(i, end=' ')
