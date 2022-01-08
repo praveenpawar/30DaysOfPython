@@ -70,3 +70,17 @@ def reverse_list(lst):
     return rev_lst
 
 print(reverse_list([1, 2, 3, 4, 5]))
+
+#Exercise L2.1
+def evens_and_odds(num):
+    odd=0; even=0
+    for i in range(num+1):
+        if i % 2 == 0:
+            even+=1
+        else: odd+=1
+    return even, odd
+
+num=int(input("Enter the value: "))
+result=evens_and_odds(num)
+print("The number of even: ", result[0])
+print("The number of odd: ", result[1])
